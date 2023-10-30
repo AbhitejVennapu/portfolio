@@ -1,0 +1,95 @@
+{
+    "WorkExperience": [
+        {
+            "Position": "Working Student - Web Developer",
+            "Organisation": "retcor GmbH",
+            "StartDate": "Apr 2023",
+            "EndDate": "Present",
+            "Responsibilities": [
+                "Leading a team in creating a comprehensive web-based ledger tracking application, including the implementation of a robust Redux architecture.",
+                "Implementing complex tables with CRUD operations, internationalization, theming, responsive design using the MDB framework to elevate the user experience on the application."            ]  
+        },
+        {
+            "Position": "Contract Employee - Frontend Developer",
+            "Organisation": "Fraunhofer IESE, Kaiserslautern",
+            "StartDate": "Sep 2022",
+            "EndDate": "Dec 2022",
+            "Responsibilities": [
+                "Designed the screens and interface using Figma for a web application based on the requirements gathered from the client John Deere, Zweibrucken.",
+                "Implemented client-side routing for a seamless navigation experience and integrated form validation for data accuracy."
+            ]  
+        },
+        {
+            "Position": "Working Student - Software Engineer",
+            "Organisation": "Venture Leap GmbH",
+            "StartDate": "Jan 2022",
+            "EndDate": "Jan 2023",
+            "Responsibilities": [
+                "Performed state management using Redux for components like price lists, locations, riders, shopping carts for an online laundry platform that could be interacted with and manipulated in multiple ways.",
+                "Successfully improved code coverage by 36% through the creation and execution of comprehensive test suites using Jest, resulting in enhanced code quality and a more robust software application."
+            ]  
+        },
+        {
+            "Position": "Associate Software Engineer",
+            "Organisation": "Deloitte USI, India",
+            "StartDate": "Jan 2019",
+            "EndDate": "Jul 2020",
+            "Responsibilities": [
+                "Implemented RESTful API calls using JavaScript to fetch and display real-time data in a web application,improving user experience by reducing data retrieval times by 30%.",
+                "Leveraged my skills in JavaScript to help the development team fix bugs.",
+                "Rebuilt the existing testing framework by creating reusable functions that could be used across multiple products using Java, TestNG, Selenium to increase the reusability of the code.",
+                "Reduced the LOC for automating a test case on an average by 25%."
+            ]  
+        }    
+    ],
+    "Education": [
+        {
+            "CourseOfStudy": "Masters in Computer Science",
+            "University": "RPTU Kaiserslautern, Germany",
+            "StartDate": "Mar 2021",
+            "EndDate": "Present",
+            "Coursework": [
+                "Relevant Coursework: Foundations of Software Engineering, Software Project and Process Management, Requirements Engineering, Human Computer- Interaction, Quality Management, Machine Learning",
+                "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
+                "Seminars: Verification of Asynchronous Distributed Systems and Open Telemetry as a Data Source"   
+            ]
+        },
+        {
+                "CourseOfStudy": "Bachelors in Information Technology",
+                "University": "VNR VJEIT (JNTU), Hyderabad, India",
+                "StartDate": "Aug 2015",
+                "EndDate": "May 2019",
+                "Coursework": [
+                    "Relevant Coursework: Web Technologies, Android Application Development, Advanced Databases, OOPs, Java Programming, Data Structures, Software Engineering, Computer Programming",
+                    "Published a paper, 'Breast Cancer Detection Using Artificial Neural Networks'",
+                    "Graduated with honors, securing a GPA of 8.41 and standing in the top 10 percent of the class."    
+                ]
+                }
+            ],
+            "Projects": [
+                {
+                    "Title": "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
+                    "Description": [
+                        "Creating a comprehensive dashboard for teachers within the Teens' Labbook, integrating CRDTs to facilitate collaborative work tracking in React using Yjs library.",
+                        "Implementing a real-time communication subsystem with CRDTs involving comments and flags to foster instant teacher-student interactions, improving collaboration and feedback within the Labbook.",
+                        "Developing a feature allowing teachers to preview all student accounts with strict access control, intuitive navigation controls, and student-relevant information display.",
+                        "Engineering a customizable checklist feature, allowing teachers to create, configure, and track student progress with nested item features."
+                    ]
+                },
+                {
+                    "Title": "CRDT Driven Web Application",
+                    "Description": [
+                        "Elevated import and export features to accommodate various file formats (PDF, CSV, HTML) in addition to JSON, leveraging CRDT structures and utilizing React and JavaScript.",
+                        " Restructured and enhanced styling aspects of the application using Material UI."
+                    ]
+                },
+                {
+                    "Title": "Blue Cake Box - A Confectionary Website",
+                    "Description": [
+                        "An academic project to design and develop an e-commerce website for a confectionary store",
+                        "I worked on the front-end aspects of this project using PHP, Javascript, HTML, CSS"
+                    ]
+                }
+
+            ]
+}
