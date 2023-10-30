@@ -6,7 +6,7 @@ const DownloadButton = () => {
 
   function handleDownloadClick() {
 
-    const fileUrl = "/assets/Resume_Abhitej_Vennapu.pdf";
+    const fileUrl = '/Resume_Abhitej_Vennapu.pdf';
   
     const link = document.createElement('a');
     link.href = fileUrl;

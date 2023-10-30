@@ -19,7 +19,7 @@ const Information = () => {
           height: "100vh",
           maxHeight: "100vh",
           backgroundColor: (theme) =>
-          theme.palette.mode === "dark" ? "#000" : "#FFF",
+          theme.palette.mode === "dark" ? "#171717" : "#EFEFEF",
           color: (theme) => (theme.palette.mode === "dark" ? "#FFF" : "#000"),
           paddingRight: '5%',
           paddingLeft: '5%',
@@ -33,7 +33,7 @@ const Information = () => {
             <TabBar activeStep={activeStep} setActiveStep={setActiveStep}></TabBar>
           </Box>
           {/* Component 3 with dynamic height */}
-          <Box sx = {{maxHeight: '65%', overflow: 'scroll', padding: '5%'}} >
+          <Box sx = {{maxHeight: '65%', overflow: 'auto', padding: '5%'}} >
             {activeStep === 0 && <Education />}
             {activeStep === 1 && <WorkExperience />}
             {activeStep === 2 && <Projects />}

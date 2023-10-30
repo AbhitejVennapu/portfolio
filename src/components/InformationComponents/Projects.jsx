@@ -16,7 +16,7 @@ const Projects = () => {
                 fontWeight : "500", 
                 fontSize: "13px", 
                 marginTop: '3px', 
-                color: (theme) => (theme.palette.mode === "dark" ? "#BBB" : "#777")}}>
+                color: (theme) => (theme.palette.mode === "dark" ? "#BBB" : "#000")}}>
                   {description}
                   </Typography>
             ))

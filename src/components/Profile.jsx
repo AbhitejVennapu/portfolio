@@ -9,6 +9,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import IconButton from '@mui/material/IconButton';
 import { MUIWrapperContext } from "./MUIWrapper";
+import abhitej from '../assets/abhitej.png'
 
 const Profile = () => {
   const theme = useTheme();
@@ -19,12 +20,12 @@ const Profile = () => {
             maxHeight: "100vh",
             height: "100vh",
             backgroundColor: (theme) =>
-              theme.palette.mode === "dark" ? "#FFF" : "#000",
+              theme.palette.mode === "dark" ? "#000" : "#FFF",
             alignItems: "center",
             display: "flex",
             justifyContent: "center",
             flexDirection: "column",
-            color: (theme) => (theme.palette.mode === "dark" ? "#000" : "#FFF"),
+            color: (theme) => (theme.palette.mode === "dark" ? "#FFF" : "#000"),
             paddingLeft: "7.5%",
             paddingRight: "7.5%",
             position: "relative",
@@ -38,7 +39,7 @@ const Profile = () => {
           <Stack spacing = {0} sx = {{alignItems: 'center'}}>
             <Avatar
               alt="Abhitej Vennapu"
-              src="/assets/Abhitej.png"
+              src={abhitej}
               sx={{ width: 120, height: 120}}
             />
             <Typography 
@@ -59,7 +60,7 @@ const Profile = () => {
             <Typography
               sx={{
                 color: (theme) =>
-                  theme.palette.mode === "dark" ? "#777" : "#BBB",
+                  theme.palette.mode === "dark" ? "#BBB" : "#777",
                 fontWeight: "700",
                 [theme.breakpoints.up('xs')]: {
                   fontSize: '17px', 
@@ -75,13 +76,13 @@ const Profile = () => {
               Frontend Developer
             </Typography>
           </Stack>
-          <Box sx={{ paddingTop: "30px" ,maxHeight: '25%', overflow: 'scroll'}}>
+          <Box sx={{ paddingTop: "30px" ,maxHeight: '25%', overflow: 'auto'}}>
             <Typography
               sx={{
                 fontSize: "14px",
                 fontWeight: "500",
                 color: (theme) =>
-                  theme.palette.mode === "dark" ? "#777" : "#BBB",
+                  theme.palette.mode === "dark" ? "#BBB" : "#777",
                 textAlign: "justify",
               }}
             >
@@ -101,7 +102,7 @@ const Profile = () => {
                   <EmailIcon
                     sx={{
                       color: (theme) =>
-                        theme.palette.mode === "dark" ? "#000" : "#FFF",
+                        theme.palette.mode === "dark" ? "#FFF" : "#000",
                         [theme.breakpoints.up('xs')]: {
                           fontSize: '20px', 
                         },
@@ -121,7 +122,7 @@ const Profile = () => {
                   <LinkedInIcon
                     sx={{
                       color: (theme) =>
-                        theme.palette.mode === "dark" ? "#000" : "#FFF",
+                        theme.palette.mode === "dark" ? "#FFF" : "#000",
                         [theme.breakpoints.up('xs')]: {
                           fontSize: '20px', 
                         },
@@ -138,7 +139,7 @@ const Profile = () => {
                   <GitHubIcon
                     sx={{
                       color: (theme) =>
-                        theme.palette.mode === "dark" ? "#000" : "#FFF",
+                        theme.palette.mode === "dark" ? "#FFF" : "#000",
                         [theme.breakpoints.up('xs')]: {
                           fontSize: '20px', 
                         },
@@ -156,7 +157,7 @@ const Profile = () => {
                 <CopyrightIcon
                   sx={{
                     color: (theme) =>
-                      theme.palette.mode === "dark" ? "#777" : "#BBB",
+                      theme.palette.mode === "dark" ? "#BBB" : "#777",
                       [theme.breakpoints.up('xs')]: {
                         fontSize: '12px',
                       },
@@ -173,7 +174,7 @@ const Profile = () => {
                 <Typography
                   sx={{
                     color: (theme) =>
-                      theme.palette.mode === "dark" ? "#777" : "#BBB",
+                      theme.palette.mode === "dark" ? "#BBB" : "#777",
                     
                     [theme.breakpoints.up('xs')]: {
                       fontSize: '8px',
