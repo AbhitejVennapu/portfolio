@@ -21,7 +21,7 @@ const Navigation = ({activeStep, setActiveStep}) => {
     <MobileStepper
           variant="dots"
           steps={3}
-          position="fixed"
+          position="static"
           activeStep={activeStep}
           sx = {{
             "& .MuiMobileStepper-dotActive": {
