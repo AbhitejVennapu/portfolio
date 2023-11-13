@@ -86,13 +86,9 @@ const Profile = () => {
                 textAlign: "justify",
               }}
             >
-              I am a Master's student (expected to graduate by end of this year)
-              in Computer Science at RPTU. I have more than 3 years of
-              cumulative experience in Frontend development and Software Quality
-              Assurance. I am currently looking for opportunities in the field
-              of Frontend development to purse my passion of building high
-              quality, scalable web applications and contributing to the growth
-              of the organisation.
+              I'm a Computer Science graduate student at RPTU with over 3 years of experience in web development and testing. 
+              Currently, I'm a working student front-end developer and excited to explore full-time opportunities in web development. 
+              I love building top-notch, scalable applications and look forward to contributing my skills to organizations that value innovation and excellence.
             </Typography>
           </Box>
           <Box sx={{ position: "absolute", bottom: "3%", left: "7.5%" }}>

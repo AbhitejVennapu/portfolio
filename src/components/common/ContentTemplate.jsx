@@ -1,11 +1,11 @@
 import { Stack, Typography, Box } from '@mui/material'
 
-const ContentTemplate = ({ position, organisation, startDate, endDate, description }) => {
+const ContentTemplate = ({ position, organisation, startDate, endDate, location, description }) => {
   return (
     <> 
     <Stack spacing={0} sx= {{alignItems: 'left', textAlign: 'left'}}>
-        <Typography sx = {{ fontWeight : "700", fontSize: "17px"}}> {position} </Typography>
-        <Typography sx = {{ fontWeight : "550", fontSize: "13px"}}> {organisation} | {startDate} - {endDate} </Typography>
+        <Typography sx = {{ fontWeight : "700", fontSize: "17px"}}> {position} | {organisation} </Typography>
+        <Typography sx = {{ fontWeight : "550", fontSize: "13px"}}> {location} | {startDate} - {endDate} </Typography>
     </Stack>
     <Box sx = {{ marginTop: '7px', textAlign: 'left', alignItems: 'right'}}>
     { description.map((item,index) => (

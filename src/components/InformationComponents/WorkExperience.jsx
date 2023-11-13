@@ -13,7 +13,8 @@ const WorkExperience = () => {
                 position = {experience.Position} 
                 organisation = {experience.Organisation} 
                 startDate={experience.StartDate}
-                endDate={experience.EndDate} 
+                endDate={experience.EndDate}
+                location = {experience.Location} 
                 description={experience.Responsibilities}> 
             </ContentTemplate>
             </Box>

@@ -14,6 +14,7 @@ const Education = () => {
                 organisation = {education.University} 
                 startDate={education.StartDate}
                 endDate={education.EndDate} 
+                location={education.Location}
                 description={education.Coursework}> 
             </ContentTemplate>
             </Box>

@@ -2,52 +2,52 @@
     "WorkExperience": [
         {
             "Position": "Working Student - Web Developer",
-            "Organisation": "retcor GmbH",
+            "Organisation": "Retcor GmbH",
             "StartDate": "Apr 2023",
             "EndDate": "Present",
+            "Location": "Bielefeld, Germany",
             "Responsibilities": [
-                "Leading a team in creating a comprehensive web-based ledger tracking application, including the implementation of a robust Redux architecture.",
-                "Implementing complex tables with CRUD operations, internationalization, theming, responsive design using the MDB framework to elevate the user experience on the application."            ]  
-        },
-        {
-            "Position": "Contract Employee - Frontend Developer",
-            "Organisation": "Fraunhofer IESE, Kaiserslautern",
-            "StartDate": "Sep 2022",
-            "EndDate": "Dec 2022",
-            "Responsibilities": [
-                "Designed the screens and interface using Figma for a web application based on the requirements gathered from the client John Deere, Zweibrucken.",
-                "Implemented client-side routing for a seamless navigation experience and integrated form validation for data accuracy."
-            ]  
-        },
+                "Currently leading the development of the frontend infrastructure for a web-based ledger tracking application using React",
+                "Architecting and implementing advanced state management through Redux",
+                "Integrating seamless REST API calls using Axios for efficient data retrieval.",
+                "Assumed Scrum Master responsibilities, contributing to Agile development through sprint planning, daily stand-ups, and retrospective meetings.",
+                "Conducting thorough testing with Jest and React Testing Library to ensure robust code quality.",
+                "Independently designed and developed the company's portfolio website using React and Material UI."
+            ]},
         {
             "Position": "Working Student - Software Engineer",
             "Organisation": "Venture Leap GmbH",
             "StartDate": "Jan 2022",
             "EndDate": "Jan 2023",
+            "Location": "Berlin, Germany",
             "Responsibilities": [
-                "Performed state management using Redux for components like price lists, locations, riders, shopping carts for an online laundry platform that could be interacted with and manipulated in multiple ways.",
-                "Successfully improved code coverage by 36% through the creation and execution of comprehensive test suites using Jest, resulting in enhanced code quality and a more robust software application."
+                "Contributed in the development of a shopping cart and product catalog for Bubblebox, an online laundry ordering platform, using PHP.",    
+                "Implemented database integration and dynamic content rendering to enhance user interaction.",
+                "Managed the entire testing lifecycle for Bubblebox, including test case formulation, manual testing, and Selenium automation in Java.",
+                "Collaborated with the Project Manager to standardize acceptance criteria for user stories, resulting in a 47% reduction in bugs identified during QA"
             ]  
         },
         {
-            "Position": "Associate Software Engineer",
+            "Position": "Associate Software QC Engineer",
             "Organisation": "Deloitte USI, India",
             "StartDate": "Jan 2019",
             "EndDate": "Jul 2020",
+            "Location": "Hyderabad, India",
             "Responsibilities": [
-                "Implemented RESTful API calls using JavaScript to fetch and display real-time data in a web application,improving user experience by reducing data retrieval times by 30%.",
-                "Leveraged my skills in JavaScript to help the development team fix bugs.",
-                "Rebuilt the existing testing framework by creating reusable functions that could be used across multiple products using Java, TestNG, Selenium to increase the reusability of the code.",
-                "Reduced the LOC for automating a test case on an average by 25%."
+                "Collaborated in rebuilding the testing framework for Solvas TDR, a fintech application, using Java, TestNG, and Selenium to increase code reusability.",
+                "Reduced Lines of Code (LOC) for automating a test case by an average of 25%.",
+                "Provided critical support to the development team during release phases within the ASP.NET framework.",
+                "Co-ordinated with end-to-end developers and business analysts in continuous discussions to gather requirements, create scope documents, and design test cases using Microsoft Azure DevOps for testing deployed code."
             ]  
         }    
     ],
     "Education": [
         {
             "CourseOfStudy": "Masters in Computer Science",
-            "University": "RPTU Kaiserslautern, Germany",
+            "University": "Rheinland - Pfälzische Technische Universität",
             "StartDate": "Mar 2021",
             "EndDate": "Present",
+            "Location" : "Kaiserslautern, Germany",
             "Coursework": [
                 "Relevant Coursework: Foundations of Software Engineering, Software Project and Process Management, Requirements Engineering, Human Computer- Interaction, Quality Management, Machine Learning",
                 "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
@@ -56,9 +56,10 @@
         },
         {
                 "CourseOfStudy": "Bachelors in Information Technology",
-                "University": "VNR VJEIT (JNTU), Hyderabad, India",
+                "University": "VNR VJIET (JNTU)",
                 "StartDate": "Aug 2015",
                 "EndDate": "May 2019",
+                "Location" : "Hyderabad, India",
                 "Coursework": [
                     "Relevant Coursework: Web Technologies, Android Application Development, Advanced Databases, OOPs, Java Programming, Data Structures, Software Engineering, Computer Programming",
                     "Published a paper, 'Breast Cancer Detection Using Artificial Neural Networks'",
@@ -66,30 +67,33 @@
                 ]
                 }
             ],
-            "Projects": [
-                {
-                    "Title": "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
-                    "Description": [
-                        "Creating a comprehensive dashboard for teachers within the Teens' Labbook, integrating CRDTs to facilitate collaborative work tracking in React using Yjs library.",
-                        "Implementing a real-time communication subsystem with CRDTs involving comments and flags to foster instant teacher-student interactions, improving collaboration and feedback within the Labbook.",
-                        "Developing a feature allowing teachers to preview all student accounts with strict access control, intuitive navigation controls, and student-relevant information display.",
-                        "Engineering a customizable checklist feature, allowing teachers to create, configure, and track student progress with nested item features."
-                    ]
-                },
-                {
-                    "Title": "CRDT Driven Web Application",
-                    "Description": [
-                        "Elevated import and export features to accommodate various file formats (PDF, CSV, HTML) in addition to JSON, leveraging CRDT structures and utilizing React and JavaScript.",
-                        " Restructured and enhanced styling aspects of the application using Material UI."
-                    ]
-                },
-                {
-                    "Title": "Blue Cake Box - A Confectionary Website",
-                    "Description": [
-                        "An academic project to design and develop an e-commerce website for a confectionary store",
-                        "I worked on the front-end aspects of this project using PHP, Javascript, HTML, CSS"
-                    ]
-                }
-
+    "Projects": [
+        {
+            "Title": "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
+            "Description": [
+                "Implemented collaborative commenting system for Labbook digital classroom, enhancing communication between students and teachers.",
+                "Engineered a flagging mechanism for student-teacher interactions, streamlining assistance requests and resolutions.",
+                "Ensured secure access controls, granting teachers access to students private boards within Labbook.",
+                "Developed visually appealing, dynamically updated components on teacher's dashboard to track student progress, utilizing CRDTs and React."
             ]
+        },
+        {
+            "Title": "Sync Service Application for John Deere",
+            "Description": [
+                "A capstone project in collaboration with Fraunhofer IESE and John Deere. The goal of this project was to develop a sync service for their existing system.",
+                "Designed the architecture for the application and ensured successful integration of frontend with backend via RESTful api calls.",
+                "Implemented client-side routing for a seamless navigation experience and integrated form validation for data accuracy.",
+                "Expertly leveraged React hooks to meticulously manage application state, ensuring efficient data manipulation during user interaction."
+            ]
+        },
+        {
+            "Title": "CRDT Driven Learning Platform for BASF",
+            "Description": [
+                "A real world project in collaboration with RPTU and BASF SE. The goal of the project was to enhance an existing real time document sharing, collaborating digital learning platform with additional functionalities.",
+                "Elevated import and export features to accommodate various file formats (PDF, CSV, HTML) in addition to JSON, leveraging CRDT structures and utilizing React and JavaScript.", 
+                "Successfully migrated the application from pure CSS to the Material UI framework and implemented responsive design for enhanced adaptability across various devices."
+            ]
+        }
+
+    ]
 }
