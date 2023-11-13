@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vennapuportfolio/static/css/main.7f0e3be3.css",
-    "main.js": "/vennapuportfolio/static/js/main.532bcce3.js",
+    "main.js": "/vennapuportfolio/static/js/main.bdc5c09b.js",
     "static/js/787.0473f55d.chunk.js": "/vennapuportfolio/static/js/787.0473f55d.chunk.js",
-    "static/media/Resume.pdf": "/vennapuportfolio/static/media/Resume.f8ad16a9639fbbfdc2ca.pdf",
     "static/media/abhitej.png": "/vennapuportfolio/static/media/abhitej.f187f5f95c516c4b1211.png",
+    "static/media/Resume.pdf": "/vennapuportfolio/static/media/Resume.5a95c3a4b3d7c1c6144a.pdf",
     "index.html": "/vennapuportfolio/index.html",
     "main.7f0e3be3.css.map": "/vennapuportfolio/static/css/main.7f0e3be3.css.map",
-    "main.532bcce3.js.map": "/vennapuportfolio/static/js/main.532bcce3.js.map",
+    "main.bdc5c09b.js.map": "/vennapuportfolio/static/js/main.bdc5c09b.js.map",
     "787.0473f55d.chunk.js.map": "/vennapuportfolio/static/js/787.0473f55d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f0e3be3.css",
-    "static/js/main.532bcce3.js"
+    "static/js/main.bdc5c09b.js"
   ]
 }
