@@ -49,7 +49,7 @@ const Information = () => {
                         overflow: 'auto',
                         padding: '5%',
                         '&::-webkit-scrollbar': {
-                            width: '5px', // Adjust the width as needed
+                            width: '5px',
                         },
                         '&::-webkit-scrollbar-track': {
                             background: 'transparent', // Make the background transparent
