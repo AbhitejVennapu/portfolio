@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "homepage": "https://AbhitejVennapu.github.io/portfolio",
+    "homepage": "https://AbhitejVennapu.github.io/",
     "private": false,
     "dependencies": {
         "@emotion/react": "^11.11.1",
