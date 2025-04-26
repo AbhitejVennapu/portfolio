@@ -1,25 +1,32 @@
-import * as React from 'react';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
-import { Typography, Stack, Box } from '@mui/material';
+import * as React from 'react'
+import Timeline from '@mui/lab/Timeline'
+import TimelineItem from '@mui/lab/TimelineItem'
+import TimelineSeparator from '@mui/lab/TimelineSeparator'
+import TimelineConnector from '@mui/lab/TimelineConnector'
+import TimelineContent from '@mui/lab/TimelineContent'
+import TimelineDot from '@mui/lab/TimelineDot'
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent'
+import { Typography, Stack, Box } from '@mui/material'
 
 const Education = () => {
     return (
-
         <Stack spacing={2}>
             <Box>
-                <Typography sx={{ fontWeight: 700, textAlign: 'left' }}>Education</Typography>
-                <Timeline position="alternate" >
+                <Typography sx={{ fontWeight: 700, textAlign: 'left' }}>
+                    Education
+                </Typography>
+                <Timeline position="alternate">
                     <TimelineItem>
-                        <TimelineOppositeContent >
+                        <TimelineOppositeContent>
                             <Stack>
-                                <Typography variant = 'fontSize1'> Apr 2021 - Jan 2024</Typography>
-                                <Typography variant = 'fontSize1'> Kaiserslautern, Germany</Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Apr 2021 - Jan 2024
+                                </Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Kaiserslautern, Germany
+                                </Typography>
                             </Stack>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
@@ -28,16 +35,28 @@ const Education = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Stack>
-                                <Typography variant = 'bold'> Masters in Computer Science</Typography>
-                                <Typography variant = 'fontSize2'> Rhineland-Palatinate Technical University</Typography>
+                                <Typography variant="bold">
+                                    {' '}
+                                    Masters in Computer Science
+                                </Typography>
+                                <Typography variant="fontSize2">
+                                    {' '}
+                                    Rhineland-Palatinate Technical University
+                                </Typography>
                             </Stack>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent>
                             <Stack>
-                                <Typography variant = 'bold'> Bachelors in Information Technology</Typography>
-                                <Typography variant = 'fontSize2'> VNR VJIET (JNTU)</Typography>
+                                <Typography variant="bold">
+                                    {' '}
+                                    Bachelors in Information Technology
+                                </Typography>
+                                <Typography variant="fontSize2">
+                                    {' '}
+                                    VNR VJIET (JNTU)
+                                </Typography>
                             </Stack>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
@@ -46,21 +65,35 @@ const Education = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Stack>
-                                <Typography variant = 'fontSize1'> Aug 2015 - May 2019</Typography>
-                                <Typography variant = 'fontSize1'> Hyderabad, India</Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Aug 2015 - May 2019
+                                </Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Hyderabad, India
+                                </Typography>
                             </Stack>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
             </Box>
             <Box>
-                <Typography sx={{ fontWeight: 700, textAlign: 'left' }}>Experience</Typography>
+                <Typography sx={{ fontWeight: 700, textAlign: 'left' }}>
+                    Experience
+                </Typography>
                 <Timeline position="alternate">
                     <TimelineItem>
-                        <TimelineOppositeContent >
+                        <TimelineOppositeContent>
                             <Stack>
-                                <Typography variant = 'fontSize1'> Apr 2023 - Present</Typography>
-                                <Typography variant = 'fontSize1'> Bielefeld, Germany</Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Apr 2023 - MAY 2024
+                                </Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Bielefeld, Germany
+                                </Typography>
                             </Stack>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
@@ -69,16 +102,27 @@ const Education = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Stack>
-                                <Typography variant = "bold"> Web Developer | Working Student</Typography>
-                                <Typography variant = 'fontSize2'> Retcor GmbH</Typography>
+                                <Typography variant="bold">
+                                    {' '}
+                                    Web Developer | Working Student
+                                </Typography>
+                                <Typography variant="fontSize2">
+                                    {' '}
+                                    Retcor GmbH
+                                </Typography>
                             </Stack>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent>
                             <Stack>
-                                <Typography variant = "bold"> Software Engineer | Working Student</Typography>
-                                <Typography variant = 'fontSize2'>Venture Leap GmbH</Typography>
+                                <Typography variant="bold">
+                                    {' '}
+                                    Software Engineer | Working Student
+                                </Typography>
+                                <Typography variant="fontSize2">
+                                    Venture Leap GmbH
+                                </Typography>
                             </Stack>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
@@ -87,17 +131,28 @@ const Education = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Stack>
-                                <Typography variant = 'fontSize1'> Jan 2022 - Jan 2023</Typography>
-                                <Typography variant = 'fontSize1'> Berlin, Germany</Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Jan 2022 - Jan 2023
+                                </Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Berlin, Germany
+                                </Typography>
                             </Stack>
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent>
-                            
                             <Stack>
-                                <Typography variant = 'fontSize1'> Jan 2019 - June 2021</Typography>
-                                <Typography variant = 'fontSize1'> Hyderabad, India</Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Jan 2019 - June 2021
+                                </Typography>
+                                <Typography variant="fontSize1">
+                                    {' '}
+                                    Hyderabad, India
+                                </Typography>
                             </Stack>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
@@ -105,19 +160,21 @@ const Education = () => {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
-                        <Stack>
-                                <Typography variant = "bold"> Associate Software QC Engineer</Typography>
-                                <Typography variant = 'fontSize2'> Deloitte US Offices of India</Typography>
+                            <Stack>
+                                <Typography variant="bold">
+                                    {' '}
+                                    Associate Software QC Engineer
+                                </Typography>
+                                <Typography variant="fontSize2">
+                                    {' '}
+                                    Deloitte US Offices of India
+                                </Typography>
                             </Stack>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>
             </Box>
         </Stack>
-
-
-
-
     )
 }
 

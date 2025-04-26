@@ -1,72 +1,87 @@
 {
     "WorkExperience": [
         {
+            "Position": "Software Developer",
+            "Organisation": "Everest Systems GmbH",
+            "StartDate": "JUNE 2025",
+            "EndDate": "Present",
+            "Location": "Heidelberg, Germany",
+            "Responsibilities": [
+                "Developing and maintaining core ERP applications with a focus on HR and Cloud Cost modules using TypeScript.",
+                "Designing and implementing a fully integrated Job Portal for external applicant tracking within the HR system.",
+                "Enhancing Cloud Cost module visibility by integrating Slack usage and personnel costs from the HR module.",
+                "Collaborating with cross-functional teams to deliver scalable, user-centric features with high performance.",
+                "Participating in agile ceremonies including code reviews, sprint planning, and continuous integration."
+            ]
+        },
+        {
             "Position": "Working Student - Web Developer",
             "Organisation": "Retcor GmbH",
-            "StartDate": "Apr 2023",
-            "EndDate": "Present",
+            "StartDate": "APR 2023",
+            "EndDate": "MAY 2024",
             "Location": "Bielefeld, Germany",
             "Responsibilities": [
-                "Currently leading the development of the frontend infrastructure for a web-based ledger tracking application using React",
-                "Architecting and implementing advanced state management through Redux",
-                "Integrating seamless REST API calls using Axios for efficient data retrieval.",
+                "Developed the frontend infrastructure for a web-based ledger tracking application using React",
+                "Architected and implemented advanced state management through Redux",
+                "Integrated seamless REST API calls using Axios for efficient data retrieval.",
                 "Assumed Scrum Master responsibilities, contributing to Agile development through sprint planning, daily stand-ups, and retrospective meetings.",
-                "Conducting thorough testing with Jest and React Testing Library to ensure robust code quality.",
+                "Conducted thorough testing with Jest and React Testing Library to ensure robust code quality.",
                 "Independently designed and developed the company's portfolio website using React and Material UI."
-            ]},
+            ]
+        },
         {
             "Position": "Working Student - Software Engineer",
             "Organisation": "Venture Leap GmbH",
-            "StartDate": "Jan 2022",
-            "EndDate": "Jan 2023",
+            "StartDate": "JAN 2022",
+            "EndDate": "JAN 2023",
             "Location": "Berlin, Germany",
             "Responsibilities": [
-                "Contributed in the development of a shopping cart and product catalog for Bubblebox, an online laundry ordering platform, using PHP.",    
+                "Contributed in the development of a shopping cart and product catalog for Bubblebox, an online laundry ordering platform, using PHP.",
                 "Implemented database integration and dynamic content rendering to enhance user interaction.",
                 "Managed the entire testing lifecycle for Bubblebox, including test case formulation, manual testing, and Selenium automation in Java.",
                 "Collaborated with the Project Manager to standardize acceptance criteria for user stories, resulting in a 47% reduction in bugs identified during QA"
-            ]  
+            ]
         },
         {
             "Position": "Associate Software QC Engineer",
             "Organisation": "Deloitte USI, India",
-            "StartDate": "Jan 2019",
-            "EndDate": "Jul 2020",
+            "StartDate": "JAN 2019",
+            "EndDate": "JUL 2020",
             "Location": "Hyderabad, India",
             "Responsibilities": [
                 "Collaborated in rebuilding the testing framework for Solvas TDR, a fintech application, using Java, TestNG, and Selenium to increase code reusability.",
                 "Reduced Lines of Code (LOC) for automating a test case by an average of 25%.",
                 "Provided critical support to the development team during release phases within the ASP.NET framework.",
                 "Co-ordinated with end-to-end developers and business analysts in continuous discussions to gather requirements, create scope documents, and design test cases using Microsoft Azure DevOps for testing deployed code."
-            ]  
-        }    
+            ]
+        }
     ],
     "Education": [
         {
             "CourseOfStudy": "Masters in Computer Science",
             "University": "Rheinland - Pfälzische Technische Universität",
-            "StartDate": "Mar 2021",
-            "EndDate": "Present",
-            "Location" : "Kaiserslautern, Germany",
+            "StartDate": "MAR 2021",
+            "EndDate": "JAN 2024",
+            "Location": "Kaiserslautern, Germany",
             "Coursework": [
                 "Relevant Coursework: Foundations of Software Engineering, Software Project and Process Management, Requirements Engineering, Human Computer- Interaction, Quality Management, Machine Learning",
                 "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
-                "Seminars: Verification of Asynchronous Distributed Systems and Open Telemetry as a Data Source"   
+                "Seminars: Verification of Asynchronous Distributed Systems and Open Telemetry as a Data Source"
             ]
         },
         {
-                "CourseOfStudy": "Bachelors in Information Technology",
-                "University": "VNR VJIET (JNTU)",
-                "StartDate": "Aug 2015",
-                "EndDate": "May 2019",
-                "Location" : "Hyderabad, India",
-                "Coursework": [
-                    "Relevant Coursework: Web Technologies, Android Application Development, Advanced Databases, OOPs, Java Programming, Data Structures, Software Engineering, Computer Programming",
-                    "Published a paper, 'Breast Cancer Detection Using Artificial Neural Networks'",
-                    "Graduated with honors, securing a GPA of 8.41 and standing in the top 10 percent of the class."    
-                ]
-                }
-            ],
+            "CourseOfStudy": "Bachelors in Information Technology",
+            "University": "VNR VJIET (JNTU)",
+            "StartDate": "AUG 2015",
+            "EndDate": "MAY 2019",
+            "Location": "Hyderabad, India",
+            "Coursework": [
+                "Relevant Coursework: Web Technologies, Android Application Development, Advanced Databases, OOPs, Java Programming, Data Structures, Software Engineering, Computer Programming",
+                "Published a paper, 'Breast Cancer Detection Using Artificial Neural Networks'",
+                "Graduated with honors, securing a GPA of 8.41 and standing in the top 10 percent of the class."
+            ]
+        }
+    ],
     "Projects": [
         {
             "Title": "Thesis: An Integrated Framework for Guiding and Monitoring Students Learning Progress in a collaborative web application",
@@ -90,10 +105,9 @@
             "Title": "CRDT Driven Learning Platform for BASF",
             "Description": [
                 "A real world project in collaboration with RPTU and BASF SE. The goal of the project was to enhance an existing real time document sharing, collaborating digital learning platform with additional functionalities.",
-                "Elevated import and export features to accommodate various file formats (PDF, CSV, HTML) in addition to JSON, leveraging CRDT structures and utilizing React and JavaScript.", 
+                "Elevated import and export features to accommodate various file formats (PDF, CSV, HTML) in addition to JSON, leveraging CRDT structures and utilizing React and JavaScript.",
                 "Successfully migrated the application from pure CSS to the Material UI framework and implemented responsive design for enhanced adaptability across various devices."
             ]
         }
-
     ]
 }

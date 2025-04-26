@@ -12,7 +12,7 @@ import './Profile.css'
 
 const Information = () => {
     const theme = useTheme()
-    const [activeStep, setActiveStep] = useState(2)
+    const [activeStep, setActiveStep] = useState(1)
 
     return (
         <>
@@ -52,7 +52,7 @@ const Information = () => {
                             width: '5px',
                         },
                         '&::-webkit-scrollbar-track': {
-                            background: 'transparent', // Make the background transparent
+                            background: 'transparent',
                         },
                         '&::-webkit-scrollbar-thumb': {
                             background: 'transparent',

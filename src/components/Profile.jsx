@@ -105,13 +105,14 @@ const Profile = () => {
                             textAlign: 'justify',
                         }}
                     >
-                        I'm a Computer Science graduate student at RPTU with
-                        over 3 years of experience in web development and
-                        testing. Currently, I'm a working student front-end
-                        developer and excited to explore full-time opportunities
-                        in web development. I love building top-notch, scalable
-                        applications and look forward to contributing my skills
-                        to organizations that value innovation and excellence.
+                        Frontend-focused Software Developer with 4+ years of
+                        experience spanning the full software development
+                        lifecycle, including design, development, data modeling,
+                        architecture, and testing. Proven ability to translate
+                        complex requirements into intuitive, performant user
+                        interfaces. Passionate about building high-quality,
+                        scalable frontend applications with a strong focus on
+                        clean code, user experience, and modern best practices.
                     </Typography>
                 </Box>
                 <Box sx={{ position: 'absolute', bottom: '3%', left: '7.5%' }}>
@@ -223,7 +224,7 @@ const Profile = () => {
                                 }}
                             >
                                 {' '}
-                                Abhitej Vennapu | Frontend Developer | 2023{' '}
+                                Abhitej Vennapu | Frontend Developer | 2025{' '}
                             </Typography>
                         </Stack>
                     </Stack>
