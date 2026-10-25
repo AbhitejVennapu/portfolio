@@ -215,6 +215,7 @@ export default function Terminal() {
     const [entries, setEntries] = useState([])
     const [bootShown, setBootShown] = useState(0)
     const [booting, setBooting] = useState(true)
+    const [view, setView] = useState('terminal')
     const [value, setValue] = useState('')
     const screenRef = useRef(null)
     const latestRef = useRef(null)
@@ -251,8 +252,8 @@ export default function Terminal() {
     }, [entries])
 
     useEffect(() => {
-        if (hasFinePointer()) inputRef.current?.focus()
-    }, [booting])
+        if (view === 'terminal' && !booting && hasFinePointer()) inputRef.current?.focus()
+    }, [booting, view])
 
     const addEntry = (echo, body) => {
         const id = nextId.current++
@@ -265,6 +266,11 @@ export default function Terminal() {
         if (!cmd) return
         history.current.push(raw)
         historyIndex.current = history.current.length
+
+        if (cmd === 'gui') {
+            setView('gui')
+            return
+        }
 
         if (cmd === 'clear') {
             setEntries([])
@@ -333,6 +339,34 @@ export default function Terminal() {
 
     const suffix = completionFor(value)
     const latestIndex = entries.length - 1
+
+    if (view === 'gui') {
+        return (
+            <div className="term">
+                <div className="bar">
+                    <span className="dots" aria-hidden="true">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                    <span className="title">abhitej@portfolio: ~/gui</span>
+                    <button className="theme-btn" type="button" onClick={() => setView('terminal')}>
+                        terminal
+                    </button>
+                </div>
+                <div className="gui-view">
+                    <p className="row accent">GUI view: coming soon.</p>
+                    <p className="note">
+                        A graphical version of this portfolio is in the works. Switch back to the
+                        terminal to keep exploring.
+                    </p>
+                    <button className="cta" type="button" onClick={() => setView('terminal')}>
+                        back to terminal
+                    </button>
+                </div>
+            </div>
+        )
+    }
 
     return (
         <div className="term">
