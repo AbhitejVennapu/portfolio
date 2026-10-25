@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Abhitej Vennapu: Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio for Abhitej Vennapu, a frontend-focused software developer. The site is a terminal-style page that lists experience, education, projects, and contact details. Live at https://abhitejvennapu.github.io/portfolio/
 
-## Available Scripts
+A graphical (GUI) view is planned. For now the GUI option shows a "coming soon" screen.
 
-In the project directory, you can run:
+## Stack
 
-### `npm start`
+- React 18, built with Vite 8
+- Plain CSS for the terminal view (no UI library)
+- Geist Mono from Google Fonts
+- Deployed to GitHub Pages with `gh-pages`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Requirements: Node.js 20 or newer and npm.
 
-### `npm test`
+```bash
+npm install
+npm run dev        # local dev server at http://localhost:5173/portfolio/
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Scripts
 
-### `npm run build`
+| Command | What it does |
+| --- | --- |
+| `npm run dev` | Starts the Vite dev server with hot reload. |
+| `npm run build` | Builds the production site into `dist/`. |
+| `npm run preview` | Serves the built `dist/` locally to check it before deploying. |
+| `npm run deploy` | Runs `build`, then publishes `dist/` to the `gh-pages` branch. |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deploying
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+GitHub Pages serves the `gh-pages` branch at `https://abhitejvennapu.github.io/portfolio/`. It can take a few minutes for a new deploy to appear.
 
-### `npm run eject`
+The Vite `base` is set to `/portfolio/` in `vite.config.mjs`. Keep it in line with the Pages path, or the built asset URLs will break.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Editing the content
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Almost all visible text lives in one file: **`src/data/terminal-data.js`**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `COMMANDS` and `DESCRIPTIONS`: the commands in the terminal and their help text.
+- `EXPERIENCE` and `EDUCATION`: each entry has `role`, `org`, `when`, `where`, optional `now: true` (marks the current job), and `points`. Wrap a term in `**double asterisks**` to highlight it.
+- `PROJECTS`: `name`, `kind`, and `desc`.
+- `GITHUB_URL`, `LINKEDIN_URL`, `CONTACT_EMAIL`: contact details. Leave `LINKEDIN_URL` or `CONTACT_EMAIL` empty to show a placeholder.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The welcome screen and the `whoami` output are written directly in `src/components/Terminal.jsx`. Edit them there.
 
-## Learn More
+## Terminal commands
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Command | Output |
+| --- | --- |
+| `help` | Lists the commands. |
+| `whoami` | Short introduction and key facts. |
+| `ls projects` | Selected projects. |
+| `cat experience` | Work history, newest first. |
+| `cat education` | Degrees. |
+| `contact` | GitHub, LinkedIn, and email. |
+| `gui` | Switches to the GUI placeholder. Also reachable from the title-bar button. |
+| `theme` | Toggles light and dark. |
+| `clear` | Clears the transcript. |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Keyboard: Tab completes a command (or lists matches), up and down arrows recall history, and the chip row above the prompt runs a command with one tap.
 
-### Code Splitting
+## Project structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+src/
+  App.jsx                    Entry component; renders the terminal view
+  index.jsx                  React root
+  index.css                  Global base styles
+  components/
+    Terminal.jsx             Terminal view: state, command handling, GUI placeholder
+    Terminal.css             Terminal styles, light and dark tokens
+  data/
+    terminal-data.js         All portfolio content shown in the terminal
+    profile-data.json        Earlier data source for the split-screen layout (see docs)
+docs/
+  architecture.md            How the pieces fit together, and known issues
+public/                      Static files: favicon, manifest, robots.txt, icons
+vite.config.mjs              Vite config, including the /portfolio/ base path
+```
 
-### Analyzing the Bundle Size
+Older split-screen components (`LandingPage`, `Profile`, `Information`, `MUIWrapper`, and the `Resume` and `InformationComponents` folders) are not used by the terminal view. See `docs/architecture.md`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Branches
 
-### Making a Progressive Web App
+- `main`: the last merged version.
+- `terminal-view`: the terminal view. Merge into `main` when it is ready.
+- `security/fix-dependency-vulnerabilities`: the earlier move from Create React App to Vite (merged into `main`).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## More
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Architecture, the legacy components, and known issues: [docs/architecture.md](docs/architecture.md)
